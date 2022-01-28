@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Neonderthaw&family=Poppins&display=swap');
+.introduction{
+    height: 100vh;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.introduction p{
+    color: #ffffff;
+    font-weight: 600;
+}
+.introduction div h2{
+    font-weight: bold;
+    color : #FF7A82;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Mea Culpa', cursive;
+font-family: 'Neonderthaw', cursive;
+}
+.introduction div h1{
+    font-weight: bold;
+    color : #FFADB2;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Mea Culpa', cursive;
+font-family: 'Neonderthaw', cursive;
+
+
+  
+ 
+}
+.introduction div h3{
+    font-weight: bold;
+    color : #ffffff;
+    font-size: 40px;
+}
+.introduction div h1:hover{
+    color : white;
+    cursor: default;
+    text-shadow: 0px 0px 10px white;
+}
+.introduction div h2:hover{
+    color : white;
+    cursor: default;
+    text-shadow: 0px 0px 10px white;
+}
+.position-fixed{
+    position: fixed !important;
+}
+.primary-button{
+    background-color: #FFADB2;
+    height: 45px;
+    color: #ffffff;
+    border : none;
+    width:50%;
+}
+
+.primary-button a{
+    text-decoration: none;
+    color: inherit;
+    color: #ffffff;
+}
+.resume-button{
+    background-color: #232946;
+    height: 45px;
+   color: #ffffff;
+    border : 3px solid #FFADB2;
+    width:50%; 
+}
+.resume-button a{
+    text-decoration: none;
+    color: inherit;
+}
+.resume-button:hover{
+    background-color: #FFADB2;
+}
+.who-is-kavya{
+    height: 300px;
+    width: 100%;
+    
+}
+.who-is-kavya-blob{
+    background-size: 100% 100%;
+    height: 100%;
+   background-repeat : no-repeat;
+    color: white;
+   
+}
+pre{
+   
+    font-family: 'Montserrat', sans-serif !important;
+}
+.text-home{
+text-align: center;
+padding-top:65px;
+}
+.about{
+    
+    /* background-color: #df9c45dc; */
+    height: 100vh;
+
+}
+.about p{
+    color: #ffffff;
+    font-weight: 600;
+}
+.about h2{
+    color: #FFADB2;
+    font-weight: 900;
+}
+.about-info{
+    border: 5px solid  #df9c45dc;
+    border-style: dotted;
+    border-radius : 5px;
+}
+.about-img {
+    width: -webkit-fill-available;
+  }
+  .visible{
+      display: block;
+  }
+  .not-visible{
+      display: none;
+  }
+  .primary-button-about{
+    height: 45px;
+    border-radius: 25px;
+    border : none;
+    width:20%;
+    background-color: #FFADB2;
+    color: white;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .primary-button-about a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .homeIcon-content{
+    background-color:inherit ;
+    text-align: center;
+    color : white;
+}
+
+.homeIcon-content .footer-icons:hover{
+    color: #FFADB2;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.homeIcon-content a{
+    color:white;
+    text-decoration: none;
+}
+.skills{
+    height: 100vh;
+   
+}
+.skills-icons{
+   
+    margin: 15px!important;
+    padding: 10px!important;
+  
+    border: 3px dotted #df9c45dc!important;
+    vertical-align: middle!important;
+    text-align: center!important;
+    border-radius: 5px!important;
+   
+  
+    transition: all .4s ease 0s!important;
+}
+.skills h2{
+    color: #FFADB2;
+    font-weight: 900;
+}
+
+.padding-25{
+    padding: 70px;
+}
+.bounce {
+    transform-origin:inherit;
+    animation: bounce 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+ .circle{
+     /* transform: rotate(180deg); */
+  transform-origin: 50% 50%;
+    animation: rotation 10s infinite linear;
+  }
+
+
+
+
+  #contact{
+    overflow-y: hidden;
+  }
+  .contact{
+      height: 100vh;
+  }
+  .contact h2{
+    color: #FFADB2;
+    font-weight: 900;
+  }
+  .contact h4{
+    color: #FF7A82;
+    font-weight: 900;
+  }
+  .contact a{
+      color: white;
+     
+      font-weight: 600;
+  }
+  .p-40 span {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+  .p-40 span:before, .p-40 span:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  .p-40 span:before {
+    margin-right: 10px
+  }
+  .p-40 span:after {
+    margin-left: 10px
+  }
+
+  .p-40{
+      padding: 40px;
+  }
+  @keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+}
+100% {
+        -webkit-transform: rotate(359deg);
+}
+}
+@keyframes bounce{
+    from { transform: translate3d(0, 0, 0);}
+    to { transform: translate3d(0, 20px, 0);}
+}
+@media(max-width:750px) {
+    .dispNone{
+        display: none;
+    }
+    .width-260{
+        width : 260px;
+    }
+    .introduction div h1{
+        font-weight: bold;
+        color : rgba(255, 255, 255, 0.514);
+        font-size: 75px;
+    }
+    .introduction{
+        height: auto;
+        background-position: 100% 100%;
+        background-size: cover;
+    }
+    .primary-button{
+        background-color: #FFADB2;
+        height: 45px;
+        border : none;
+        width:auto;
+        padding : 5px 15px;
+    }
+    .resume-button{
+        background-color: #232946;
+        height: 45px;
+       color: #ffffff;
+        border : 3px solid #FFADB2;
+        width:auto;
+        padding : 5px 15px; 
+    }
+    .who-is-kavya-blob{
+        background-size: 150% 150%;
+        background-position: center;
+        height: 100%;
+       background-repeat : no-repeat;
+        color: white;
+       
+    }
+    pre{
+        font-size: 15px;
+    }
+    .skills{
+        height: auto;
+    }
+    .skills-icons{
+        margin: 15px!important;
+        padding: 0px!important;
+        border: 3px dotted #df9c45dc!important;
+        vertical-align: middle!important;
+        text-align: center!important;
+        border-radius: 5px!important;
+        transition: all .4s ease 0s!important;
+        width: 150px;
+    }
+    .padding-25{
+        padding: 0px;
+    }
+    .screen-width{
+        width: max-content;
+    }
+}

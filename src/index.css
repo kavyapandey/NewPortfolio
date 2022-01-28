@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+ background-color: #232946;
 }
 
+body,html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  margin:0;
+  padding :0;
+}
+.flex-width-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font-bold{
+  font-weight: bold;
+}
+.n-box1{
+background: #D34761;
+box-shadow:  5px 5px 0px #FF7A82,
+             -5px -5px 0px #FF7A82;
+}
+.n-box2{
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow:  5px 5px 0px #d9d9d9,
+               -5px -5px 0px #ffffff;
+}
+
+input, textarea{
+  margin-top: 25px;
+  border: none !important;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff) !important;
+  box-shadow:  5px 5px 0px #d9d9d9,
+               -5px -5px 0px #ffffff !important;
+               border-radius: 20px !important;
+ 
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D34761; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d34761be; 
+}
+.form-control{
+  box-shadow: none;
+}
+.form-control:focus{
+  transform :scale(1.02);
+}
+.contact button{
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  font-weight: bold;
 }
