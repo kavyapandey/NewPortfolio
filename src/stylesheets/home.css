@@ -233,6 +233,10 @@ padding-top:65px;
   .p-40{
       padding: 40px;
   }
+  .contact-icons{
+      color: #ffffff;
+      font-size: 35px;
+  }
   @keyframes rotation {
     0% {
         -webkit-transform: rotate(0deg);

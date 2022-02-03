@@ -1,4 +1,6 @@
 import React from "react";
+import {GoLocation} from 'react-icons/go';
+import {FaGithub,FaLinkedinIn} from 'react-icons/fa';
 export default function Contact(){
     return(
         <div id="contact">
@@ -9,13 +11,29 @@ export default function Contact(){
 <img className="about-img bounce" data-aos="fade-up" src="./mailbox.svg" alt=""/>
 </div>
 <div className="col-sm-8">
-    <div className="row"><h4>pandeykavya2@gmail.com</h4></div>
-   <br/>
-   <br/>
-    <div className="row"><a href="https://www.linkedin.com/in/kavya-pandey-8194b1135">LinkedIn</a></div>
+   
+    <div className="row">
+        <div className="col-sm-2">
+        <span className="contact-icons"><GoLocation/></span>
+        </div>
+       
+        <h4>Uppal, Hyderabad - 500039, Telangana</h4>
+        </div>
+    <div className="row">
+    <div className="col-sm-2">
+    <span className="contact-icons"><FaLinkedinIn/></span>
+            </div>
+   
+        <h4>kavya-pandey-8194b1135</h4>
+        </div>
 
     <div className="row">
-<a href="https://www.instagram.com/kavya.pandey/">Instagram</a></div>
+    <div className="col-sm-2">
+    <span className="contact-icons"><FaGithub/></span>
+            </div>
+   
+        <h4>kavyapandey</h4>
+        </div>
 
 
 

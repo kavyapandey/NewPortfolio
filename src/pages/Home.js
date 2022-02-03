@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import '../stylesheets/home.css';
-import { FaGithub, FaInstagram, FaLinkedin, FaMailBulk } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <Header/>
             
-          <div className='row introduction'>
+          <div className='row introduction' id="home">
               <div className='col-sm-6 d-flex align-items-center justify-content-center'>
                  
                   <div className='px-5 py-5'>
@@ -22,10 +22,9 @@ export default function Home() {
                       <p>A creative full stack javascript developer <br></br>with 3+ years of professional experience, based in Hyderabad and an individual
                      eager to learn and explore new fields of life and technology with good adaptibility and fast learning abilities.</p>
                       <div className='d-flex justify-content-between px-1 homeIcon-content'>
-                     <a href="https://www.instagram.com/kavya.pandey/"> <FaInstagram className='footer-icons'/></a>
-                        <a href="mailto:pandeykavya2@gmail.com"> <FaMailBulk className='footer-icons'/></a>
-                        <a href="https://www.linkedin.com/in/kavya-pandey-8194b1135"><FaLinkedin className='footer-icons'/></a>
-                        <a href="https://github.com/kavyapandey"> <FaGithub className='footer-icons'/></a>
+                        <a href="mailto:pandeykavya2@gmail.com" target="_blank"> <FaMailBulk className='footer-icons'/></a>
+                        <a href="https://www.linkedin.com/in/kavya-pandey-8194b1135" target="_blank"><FaLinkedin className='footer-icons'/></a>
+                        <a href="https://github.com/kavyapandey" target="_blank"> <FaGithub className='footer-icons'/></a>
                        
                      </div>
                      <br></br>
