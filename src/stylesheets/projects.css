@@ -70,6 +70,10 @@ overflow-y: hidden;
 .tech-border{
     border: 3px dotted #df9c45dc!important;
 }
+.credentials{
+    display: inline-block;
+    margin-left: 30px;
+}
 @keyframes project-animation{
     0%{
      transform : rotate(-5deg);

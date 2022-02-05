@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLaptopCode } from 'react-icons/fa';
+import { FaLaptopCode,FaUserCircle,FaLockOpen } from 'react-icons/fa';
 import Header from '../components/Header';
 import '../stylesheets/projects.css';
 import projectsData from './projectsData';
@@ -26,6 +26,16 @@ export default function Projects() {
            <div className='col-md-6 project-desc'>
            <h4>{project.title}</h4>
                 <p>{project.description}</p>
+                <div className='row'>
+                <div className='col-md-6'>
+                <span><FaUserCircle color='white'/></span>
+                <p className='credentials'>{project.sampleUser}</p>
+                </div>
+                <div className='col-md-6'>
+                <span><FaLockOpen color='white'/></span>
+                <p className='credentials'>{project.samplePassword}</p>
+                </div>
+                </div>
                 <div className='row py-5 project-tech'>
                 {project.tech.map(tech =>{
                     return (
