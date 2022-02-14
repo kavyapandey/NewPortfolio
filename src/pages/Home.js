@@ -29,7 +29,7 @@ export default function Home() {
                      </div>
                      <br></br>
                       <button className='primary-button font-bold'><a href="#about">KNOW MORE</a></button>
-                      <button className='resume-button font-bold'><a href="https://drive.google.com/file/d/1VnQQ3saFPHukU47m_raHQmmjpCvEGP8x/view?usp=sharing" target="_blank">RESUME</a></button>
+                      <button className='resume-button font-bold'><a href="https://drive.google.com/file/d/1nHPs_T2M7SNixzRiqMhI5PxjOZeCTrlf/view?usp=sharing" target="_blank">RESUME</a></button>
                   </div>
               </div>
               <div  className='col-sm-6 d-flex align-items-center justify-content-center'>
