@@ -3,7 +3,7 @@ const projectsData =[
         title : "Equipment Hiring App",
         image : "./hiring.png",
         description : "A Camera equipment hiring application which allows the user to register /login and select the equipment for the desired number of days, add them to cart and proceed for payment.",
-        link : "https://equip-rental.netlify.app/",
+        link : "https://hire-equipment.netlify.app/",
         sampleUser : "john@gmail.com",
         samplePassword : "john123",
         tech :[
@@ -24,7 +24,7 @@ const projectsData =[
                 image :'./node-js.svg'
             }
         ],
-        frontend :"https://github.com/kavyapandey/guvi-hackathon2-frontend",
+        frontend :"https://github.com/kavyapandey/equip-hiring-frontend-new",
         backend : "https://github.com/kavyapandey/guvi-hackathon2-backend"
     },
     {
