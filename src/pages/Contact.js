@@ -25,7 +25,7 @@ export default function Contact(){
             </div>
           
                        
-        <h4>kavya-pandey-8194b1135</h4>
+            <a href="https://www.linkedin.com/in/kavya-pandey-8194b1135" target="_blank"><h4>kavya-pandey-8194b1135</h4></a>
         </div>
 
     <div className="row">
@@ -33,7 +33,7 @@ export default function Contact(){
     <a href="https://github.com/kavyapandey" target="_blank"><span className="contact-icons"><FaGithub/></span></a> 
             </div>
    
-        <h4>kavyapandey</h4>
+            <a href="https://github.com/kavyapandey" target="_blank"><h4>kavyapandey</h4></a>
         </div>
 
 

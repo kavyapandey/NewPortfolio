@@ -180,7 +180,7 @@ padding-top:65px;
 }
 .bounce {
     transform-origin:inherit;
-    animation: bounce 5s;
+    animation: bounce 3s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
@@ -198,6 +198,10 @@ padding-top:65px;
   }
   .contact{
       height: 100vh;
+  }
+  #contact a{
+      text-decoration: none;
+      color: inherit;
   }
   .contact h2{
     color: #FFADB2;
@@ -310,5 +314,11 @@ padding-top:65px;
     }
     .screen-width{
         width: max-content;
+    }
+    .about-img{
+        width: 250px !important;
+        margin-top: -90px;
+        margin-left : 80px;
+    
     }
 }
