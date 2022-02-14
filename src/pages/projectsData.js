@@ -83,6 +83,38 @@ const projectsData =[
         frontend :"https://github.com/kavyapandey/dynamic-portfolio-frontend",
         backend : "https://github.com/kavyapandey/dynamicPortfolio-Backend"
     },
+    {
+        title : "Expense Manager App",
+        image : "./moneymanager.png",
+        description : "A money managing application where user can add delete the income and expenses according to various categories and manage the budget easily. The income and expense chart can be viewed on different doughnut charts too.",
+        link : "https://manage-my-expenses.netlify.app/",
+        sampleUser : "johndoe",
+        samplePassword : "john123",
+        tech :[
+            {
+                name : "Mongo DB",
+                image : './mongodb.svg'
+            },
+            {
+                name : "Express JS",
+                image : "./expressjs.svg"
+            },
+            {
+                name : "React JS",
+                image :'./react-js.svg'
+            },
+            {
+                name : "Node js",
+                image :'./node-js.svg'
+            },
+            {
+                name : "React Chart.js",
+                image :'./react-js.svg'
+            }
+        ],
+        frontend :"https://github.com/kavyapandey/money-manager-frontend",
+        backend : "https://github.com/kavyapandey/money-mananger-backend"
+    },
    
 ];
 export default projectsData

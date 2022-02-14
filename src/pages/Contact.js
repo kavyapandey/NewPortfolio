@@ -21,15 +21,16 @@ export default function Contact(){
         </div>
     <div className="row">
     <div className="col-sm-2">
-    <span className="contact-icons"><FaLinkedinIn/></span>
+    <a href="https://www.linkedin.com/in/kavya-pandey-8194b1135" target="_blank"><span className="contact-icons"><FaLinkedinIn/></span></a>
             </div>
-   
+          
+                       
         <h4>kavya-pandey-8194b1135</h4>
         </div>
 
     <div className="row">
     <div className="col-sm-2">
-    <span className="contact-icons"><FaGithub/></span>
+    <a href="https://github.com/kavyapandey" target="_blank"><span className="contact-icons"><FaGithub/></span></a> 
             </div>
    
         <h4>kavyapandey</h4>
