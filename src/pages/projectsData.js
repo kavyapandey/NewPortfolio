@@ -53,7 +53,7 @@ const projectsData =[
             }
         ],
         frontend :"https://github.com/kavyapandey/blogFrontEnd",
-        backend : "https://github.com/kavyapandey/blogFrontEnd"
+        backend : "https://github.com/kavyapandey/blogBackend"
     },
     {
         title : "Dynamic Portfolio Building App",
