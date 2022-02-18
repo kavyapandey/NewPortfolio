@@ -17,9 +17,9 @@ export default function Projects() {
        <div className='position-relative project'>
             <img src={project.image} alt=""/>
             <div className='project-content'>
-                <button className='primary-button mx-2'><a id="myLink" href={project.link} target="_blank">DEMO</a></button>
-                <button className='primary-button'><a id="myLink" href={project.frontend} target="_blank">Github Frontend</a></button>
-                <button className='primary-button mx-2'><a id="myLink" href={project.backend} target="_blank">Github Backend</a></button>
+            <a className = 'pad5' id="myLink" href={project.link} target="_blank"><button className='primary-button mx-2' style={{width:"100%"}}>DEMO</button></a>
+            <a className = 'pad5' id="myLink" href={project.frontend} target="_blank"><button className='primary-button mx-2' style={{width:"100%"}}>Github Frontend</button></a>
+            <a className = 'pad5' id="myLink" href={project.backend} target="_blank"> <button className='primary-button mx-2' style={{width:"100%"}}>Github Backend</button></a>
             </div>
         </div>
            </div>

@@ -28,8 +28,9 @@ export default function Home() {
                        
                      </div>
                      <br></br>
-                      <button className='primary-button font-bold'><a href="#about">KNOW MORE</a></button>
-                      <button className='resume-button font-bold'><a href="https://drive.google.com/file/d/1bEvAJ2aBwITa1ERmHRL5gSXxRvXhi-vT/view?usp=sharing" target="_blank">RESUME</a></button>
+                     <a href="#about"><button className='primary-button font-bold'>KNOW MORE</button></a>
+                     <a href="https://drive.google.com/file/d/1bEvAJ2aBwITa1ERmHRL5gSXxRvXhi-vT/view?usp=sharing" target="_blank"><button className='resume-button font-bold'>RESUME</button></a>
+                
                   </div>
               </div>
               <div  className='col-sm-6 d-flex align-items-center justify-content-center'>

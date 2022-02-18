@@ -233,7 +233,9 @@ padding-top:65px;
   .p-40 span:after {
     margin-left: 10px
   }
-
+  .pad5{
+      padding : 5px;
+  }
   .p-40{
       padding: 40px;
   }
